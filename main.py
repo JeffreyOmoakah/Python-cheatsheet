@@ -80,6 +80,7 @@ print(funky_name)
 # Using slice objects for string slicing
 website1 = "https://google.com"
 website2 = "https://wikipedia.com"
+website3 = "https://wwe.com"
 slice = slice(8,-4)
 print(website1[slice])
 print(website2[slice])
