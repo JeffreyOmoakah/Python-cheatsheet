@@ -113,6 +113,15 @@ while len(name) == 0:
     name = input("Enter your name: ")
 print("Hello " + name)
 
+password = ""
+
+while len(password) < 5:
+    password = (input("Enter a new password: "))
+    if len(password) < 5:
+        print("Enter a new password")
+
+print("Successful! ")
+
 # for loop
 # Using for loops to iterate over ranges and strings
 for i in range(10):
