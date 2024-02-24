@@ -97,6 +97,16 @@ elif age == 0:
 else:
     print("You're a kid")
 
+height = float(input("How tall are you?: "))
+if height == 7.5:
+    print("You are way too tall!")
+elif height >= 6.1:
+    print("You are tall")
+elif height < 6.0:
+    print("You are short")
+else :
+    print("You are a dwarf")
+
 # logical operators
 # Checking weather conditions and giving recommendations
 weather = int(input("Enter the weather condition: "))
