@@ -212,3 +212,23 @@ for x in student:
     print(x)
 if "female" in student:
     print("Hey what's up")
+
+# Dictionary = a changeable , unordered collection of unique key:value pairs fast because they use hashing , allow us o access a value qucikly
+capitals = {'Nigeria':'abuja',
+            'India':'New dehli',
+            'china': 'bejing'}
+
+print(capitals.get('china'))
+
+capitals.update({'Germany': 'Berlin'})
+capitals.update({'Nigeria': 'Lagos'})
+capitals.pop({'china'})
+capitals.clear 
+
+print(capitals.get('china'))
+print(capitals.keys())
+print(capitals.values())
+print(capitals.items())
+
+for key,value in capitals.items():
+    print(key, value)
