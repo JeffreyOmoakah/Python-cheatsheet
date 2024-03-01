@@ -223,7 +223,7 @@ print(capitals.get('china'))
 capitals.update({'Germany': 'Berlin'})
 capitals.update({'Nigeria': 'Lagos'})
 capitals.pop({'china'})
-capitals.clear 
+capitals.clear()
 
 print(capitals.get('china'))
 print(capitals.keys())
