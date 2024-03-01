@@ -213,7 +213,7 @@ for x in student:
 if "female" in student:
     print("Hey what's up")
 
-# Dictionary = a changeable , unordered collection of unique key:value pairs fast because they use hashing , allow us o access a value qucikly
+# Dictionary = a changeable , unordered collection of unique key:value pairs fast because they use hashing , allow us o access a value quickly
 capitals = {'Nigeria':'abuja',
             'India':'New dehli',
             'china': 'bejing'}
@@ -233,7 +233,7 @@ print(capitals.items())
 for key,value in capitals.items():
     print(key, value)
 
-# functions = a block of code which is excuted only when it is called 
+# functions = a block of code which is executed only when it is called 
 
 def name(first_name,last_name, age):
     print("Hello " + first_name + last_name)
@@ -242,7 +242,7 @@ def name(first_name,last_name, age):
 
 name("Jeffrey","Omoakah", 21)
 
-# return statements = Functions send pythin values/objects back to the caller.
+# return statements = Functions send python values/objects back to the caller.
 #                     These values/objects are known as the functions return value 
 
 def multiply(number1 , number2):
@@ -251,3 +251,10 @@ def multiply(number1 , number2):
 x = multiply(6,8)
 print(x)
 
+# keyword arguments = arguments by an identifier when we pass them to a function
+#                     The order of the arguments doesn't matter, unlike positional arguments
+#                     Python knows the names of the argument that our function receives.
+def name(first_name, middle_name, last_name):
+    print("Hello " + first_name + middle_name + last_name)
+
+name(last_name=" Omoakah", first_name= "Jeffrey " , middle_name= "ruben")
