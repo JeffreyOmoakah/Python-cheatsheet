@@ -147,6 +147,11 @@ for seconds in range(10, 0, -1):
     time.sleep(1)
 print("Happy new year ")
 
+for seconds in range(1,10+1,1):
+    print(seconds)
+    time.sleep(1)
+print("Happy New month!")
+
 # nested loops
 # Generating a grid of symbols based on user input
 rows = int(input("How many rows?: "))
