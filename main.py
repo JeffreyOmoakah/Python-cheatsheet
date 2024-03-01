@@ -232,3 +232,12 @@ print(capitals.items())
 
 for key,value in capitals.items():
     print(key, value)
+
+# functions = a block of code which is excuted only when it is called 
+
+def name(first_name,last_name, age):
+    print("Hello " + first_name + last_name)
+    print("You are " + str(age) + " old")
+    print("Have a good day!!")
+
+name("Jeffrey","Omoakah", 21)
