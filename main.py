@@ -241,3 +241,13 @@ def name(first_name,last_name, age):
     print("Have a good day!!")
 
 name("Jeffrey","Omoakah", 21)
+
+# return statements = Functions send pythin values/objects back to the caller.
+#                     These values/objects are known as the functions return value 
+
+def multiply(number1 , number2):
+    return  number1 * number2
+
+x = multiply(6,8)
+print(x)
+
