@@ -258,3 +258,16 @@ def name(first_name, middle_name, last_name):
     print("Hello " + first_name + middle_name + last_name)
 
 name(last_name=" Omoakah", first_name= "Jeffrey " , middle_name= "ruben")
+
+# scope =          The region that a variable is recongised
+#                  A variable is only available from the inside the region it is created
+#                  A global and locally scoped versions of a variable can be created 
+
+name = "bro" # global scope (available inside & outside functions)
+
+def display_name():
+    name= "Jeffrey"     #local scope (only available only in this function)
+    print(name)
+
+display_name()
+print(name)
