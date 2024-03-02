@@ -271,3 +271,5 @@ def display_name():
 
 display_name()
 print(name)
+
+# args = parameter that will pack all arguments into a tuple
