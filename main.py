@@ -145,7 +145,7 @@ import time
 for seconds in range(10, 0, -1):
     print(seconds)
     time.sleep(1)
-print("Happy new year ")
+print("Happy New year ")
 
 for seconds in range(1,10+1,1):
     print(seconds)
@@ -282,3 +282,5 @@ def add(*args):
     return sum 
 
 print(add(1,2,3,5))
+
+def 
