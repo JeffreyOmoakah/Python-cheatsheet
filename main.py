@@ -283,4 +283,12 @@ def add(*args):
 
 print(add(1,2,3,5))
 
-def 
+def order_pizza(size, *toppings, **details):
+    print(f"Ordered a {size} of pizza with the following toppings:")
+    for toppings in toppings:
+        print(f"- {toppings} ")
+    print("\nDetails of the order are: ")
+    for key,value in details.items():
+        print(f"- {key}:{value}")
+
+order_pizza("Large", "Pepperoni", "Beef", delievery=True, Amount = 5 )
