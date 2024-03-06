@@ -291,4 +291,4 @@ def order_pizza(size, *toppings, **details):
     for key,value in details.items():
         print(f"- {key}:{value}")
 
-order_pizza("Large", "Pepperoni", "Beef", delievery=True, Amount = 5 )
+order_pizza("Large", "Pepperoni", "Beef", delivery=True, Amount = 5 )
