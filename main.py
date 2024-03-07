@@ -292,3 +292,6 @@ def order_pizza(size, *toppings, **details):
         print(f"- {key}:{value}")
 
 order_pizza("Large", "Pepperoni", "Beef", delivery=True, Amount = 5 )
+
+# strings = parameter that will pack all arguments into a dictionary 
+#           useful so that a function can accept a varying amount of keyword arguments
