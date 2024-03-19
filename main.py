@@ -205,7 +205,7 @@ print(food[2][1])
 
 # tuple
 # Creating and manipulating a tuple
-student = ("bro", 16, "female")
+student = ("jeff", 16, "female")
 (student.count("bro"))
 print(student.index("female"))
 for x in student:
